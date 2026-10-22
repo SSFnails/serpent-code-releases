@@ -17,13 +17,13 @@
 
 ## Установка на Windows 10 и 11 (64-бит)
 
-1. Скачайте `SerpentCode-<версия>-win-x64-setup.exe` и запустите.
+1. Скачайте `SerpentCode-<версия>-win-x64.exe` и запустите.
 2. Если появится окно SmartScreen: «Подробнее» → «Выполнить в любом случае».
 
 ## Проверка файла (по желанию)
 
 - Mac: `shasum -a 256 SerpentCode-<версия>-mac-arm64.zip`
-- Windows: `Get-FileHash SerpentCode-<версия>-win-x64-setup.exe`
+- Windows: `Get-FileHash SerpentCode-<версия>-win-x64.exe`
 
 Сумма должна совпасть с файлом `.sha256` из того же выпуска.
 
